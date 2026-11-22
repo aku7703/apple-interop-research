@@ -1,0 +1,30 @@
+# Logs and caches
+*.log
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backups and temporary dumps
+*.backup
+*.bak
+*.tmp
+temp/
+scratch/
+
+# Keys, certificates, and credentials
+*.pem
+*.key
+*.cer
+*.crt
+*.p12
+*.pfx
+secrets/
+.env
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local backup output
+backup_output/
